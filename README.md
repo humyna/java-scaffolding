@@ -11,7 +11,7 @@ Java's scaffolding capabilities let me bootstrap a new project in a fraction of 
 
 #### mybatis-generator-mysql使用说明
 1. 替换generator.properties中的值，包括数据库配置、javamodel、mapper、xml生成路径
-2. 在generator-config.xml中添加你需要生成的表,参考<table>属性
+2. 在generator-config.xml中添加你需要生成的表,参考table标签
 > 示例为主键自增配置
 3. 执行
     * 方法1：配置mybatis-generator-maven-plugin执行
@@ -19,7 +19,7 @@ Java's scaffolding capabilities let me bootstrap a new project in a fraction of 
 
 #### mybatis-generator-oracle使用说明
 1. 替换generator.properties中的值，包括数据库配置、javamodel、mapper、xml生成路径
-2. 在generator-config.xml中添加你需要生成的表,参考<table>属性
+2. 在generator-config.xml中添加你需要生成的表,参考table标签
 > 示例主键为基于序列自增
 3. 执行
     * 方法1：配置mybatis-generator-maven-plugin执行
