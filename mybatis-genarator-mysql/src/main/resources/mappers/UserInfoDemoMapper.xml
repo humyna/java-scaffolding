@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="info.zoio.scaffloding.java.mappers.UserInfoDemoMapper">
+  <resultMap id="BaseResultMap" type="info.zoio.scaffloding.java.mappers.model.UserInfoDemo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="demo_id" jdbcType="INTEGER" property="demoId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="birth_day" jdbcType="TIMESTAMP" property="birthDay" />
+    <result column="commets" jdbcType="VARCHAR" property="commets" />
+  </resultMap>
+</mapper>
